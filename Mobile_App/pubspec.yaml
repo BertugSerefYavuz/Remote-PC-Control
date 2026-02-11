@@ -1,0 +1,33 @@
+name: pc_kontrol_v2
+description: Remote PC Control Client - Mobile interface for managing system processes via Firebase Realtime Database.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Core & Services
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  firebase_database: ^12.1.0
+
+  # System & Utilities
+  url_launcher: ^6.2.1
+  local_auth: ^2.3.0
+  shared_preferences: ^2.5.3
+
+  # UI Assets
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
