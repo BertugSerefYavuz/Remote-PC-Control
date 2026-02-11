@@ -1,0 +1,6 @@
+firebase-admin
+opencv-python
+numpy
+pyautogui
+requests
+pillow

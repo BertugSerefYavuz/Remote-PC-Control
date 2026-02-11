@@ -1,0 +1,15 @@
+# Gizli Anahtarlar ve Konfigürasyonlar
+serviceAccountKey.json
+id.txt
+hata_logu.txt
+
+# Derlenmiş Dosyalar ve Klasörler (Gereksiz yer kaplamasın)
+__pycache__/
+build/
+dist/
+*.spec
+*.exe
+
+# IDE dosyaları
+.idea/
+.vscode/
